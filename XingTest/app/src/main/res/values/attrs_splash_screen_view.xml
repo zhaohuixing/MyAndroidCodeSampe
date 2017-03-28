@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="SplashScreenView">
+        <attr name="logoDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

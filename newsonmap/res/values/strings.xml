@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T2GE</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Close">Close</string>
+ 	<string name="Community">Community</string>
+	<string name="LocalNews">Local News</string>
+ 	<string name="Traffic">Traffic</string>   
+ 	<string name="PublicIssue">Public Issue</string>
+ 	<string name="FoodAndDrink">Food\u0026Drink</string>
+ 	<string name="ArtAndEntertainment">Art\u0026Entertainment</string>
+ 	<string name="TechnologyAndScience">Science\u0026Technology</string>
+ 	<string name="TravelAndTourism">Travel\u0026Tourism</string>
+ 	<string name="CrimeAndDisaster">Crime\u0026Disaster</string>
+ 	<string name="Politics">Politics</string>
+ 	<string name="Business">Business</string>
+ 	<string name="Money">Money</string>
+ 	<string name="Health">Health</string>
+ 	<string name="Sports">Sports</string>
+ 	<string name="Education">Education</string>
+ 	<string name="LifeStyle">Life Style</string>
+	<string name="RealEstate">Real Estate</string>
+	<string name="Auto">Auto</string>
+	<string name="Weather">Weather</string>
+	<string name="Misc">Misc</string>
+ 	<string name="All">All</string>
+    <string name="CommunityEvent">Community Event</string>
+    <string name="CommunityYardSale">Garage Sale</string>
+    <string name="CommunityWiki">Community Wiki</string>
+	<string name="PublicTransit">Public Transit</string>
+	<string name="DrivingCondition">Driving Condition</string>
+	<string name="Delay">Delay</string>
+	<string name="PassengerOvercrowd">Passenger Overcrowd</string>
+	<string name="TrafficJam">Traffic Jam</string>
+	<string name="CarCrash">Car Crash</string>
+	<string name="PoliceCheckpoint">Police Checkpoint</string>
+	<string name="ConstructionZone">Construction Zone</string>
+	<string name="RoadClosure">Road Closure</string>
+	
+	<string name="Configuration">Setting</string>
+	<string name="Reload">Reload</string>
+	<string name="ClearMap">Clear Map</string>
+	<string name="MyLocation">My Location</string>
+	<string name="Privacy">Privacy</string>
+	<string name="TermOfUse">Terms Of Use</string>
+	<string name="Standard">Standard</string>
+	<string name="Hybrid">Hybrid</string>
+	<string name="Satellite">Satellite</string>
+	<string name="SearchSetting">Search Setting</string>
+	<string name="UserSetting">User Setting</string>
+	
+</resources>

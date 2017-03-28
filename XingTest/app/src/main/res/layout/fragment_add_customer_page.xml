@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:clickable="true"
+    tools:context="com.xingzhaohui.xingtest.mainmodule.view.AddCustomerPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="4dp" >
+
+        <TextView
+            android:layout_margin="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name" />
+        <EditText
+            android:id="@+id/NameInput"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Input name here"
+            android:text=""
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_margin="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address" />
+        <EditText
+            android:id="@+id/AddressInput"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Input address here"
+            android:text=""
+            android:maxLines="1" />
+        <TextView
+            android:layout_margin="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Phone" />
+        <EditText
+            android:id="@+id/PhoneInput"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Input phone here"
+            android:text=""
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_margin="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Email" />
+        <EditText
+            android:id="@+id/EmailInput"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Input email here"
+            android:text=""
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"  >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom">
+                <Button
+                    android:layout_gravity="left"
+                    android:id="@+id/AddCustomerCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/Cancel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/AddCustomOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:text="@string/AddCustomer" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

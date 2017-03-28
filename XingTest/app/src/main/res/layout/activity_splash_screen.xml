@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:splashscreen="http://schemas.android.com/apk/res/com.xingzhaohui.xingtest"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xingzhaohui.xingtest.SplashScreenActivity">
+
+    <com.xingzhaohui.xingtest.splashscreen.SplashScreenView
+        android:id="@+id/splashscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Transparent"
+        splashscreen:logoDrawable="@drawable/logo" />
+
+</android.support.constraint.ConstraintLayout>
