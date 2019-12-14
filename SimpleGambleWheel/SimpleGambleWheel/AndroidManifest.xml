@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xgadget.SimpleGambleWheel"
+    android:versionCode="1014"
+    android:versionName="1.0.1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    	<meta-data 
+    				android:name="com.google.android.gms.version" 
+    				android:value="@integer/google_play_services_version"/>
+        <activity
+            android:name="com.xgadget.SimpleGambleWheel.SimpleGambleWheel"
+            android:label="@string/title_activity_simple_gamble_wheel" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    	<activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <receiver android:name = "com.amazon.inapp.purchasing.ResponseReceiver" >
+            <intent-filter>
+                <action android:name = "com.amazon.inapp.purchasing.NOTIFY"
+                    android:permission = "com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>    
+    </application>
+   
+  	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+  	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+  	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+  	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>  
+  	<uses-permission android:name="com.android.vending.BILLING" />
+</manifest>

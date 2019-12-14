@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/wheel"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/android-support-v13.jar"/>
+	<classpathentry kind="lib" path="libs/aws-android-sdk-1.7.1.1-core.jar"/>
+	<classpathentry kind="lib" path="libs/aws-android-sdk-1.7.1.1-sdb.jar"/>
+	<classpathentry kind="lib" path="libs/aws-android-sdk-1.7.1.1-sqs.jar"/>
+	<classpathentry kind="lib" path="libs/in-app-purchasing-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/gamecirclesdk.jar"/>
+	<classpathentry kind="lib" path="libs/login-with-amazon-sdk.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

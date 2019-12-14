@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/OnlineSetupViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@layout/green_bg">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_marginTop="20dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_marginTop="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center"
+        android:orientation="horizontal" >
+ 
+     	<ImageView
+    		android:id="@+id/OnlineIcon"
+            	android:layout_width="80dp"
+           	android:layout_height="80dp"
+           	android:layout_alignParentLeft="true"
+			android:layout_gravity="center"
+           	android:background="@drawable/onlinestate"
+           	android:focusable="false" />
+ 
+ 		<com.xgadget.uimodule.CSwitchButton
+    		android:id="@+id/OnlineSwitchButton"
+	        android:layout_width="100dp"
+	        android:layout_height="45dp"
+			android:layout_centerVertical="true"
+			android:layout_centerInParent="true"
+			android:layout_gravity="center" 
+	        android:layout_marginLeft="5dp"/>
+ 	</LinearLayout>
+    
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_marginTop="10dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+ 
+ 		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft ="true"
+			android:layout_gravity="center"
+			android:gravity="center"			
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" 
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="@android:color/primary_text_dark_nodisable"
+			android:background="@android:color/transparent"
+			android:text="@string/NickName"/>
+ 
+ 		<EditText
+    		android:id="@+id/OnlineNameEdit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+			android:textSize="20sp"
+			android:singleLine="true" 
+			android:textStyle="bold"
+			android:textColor="@android:color/black"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="3dip"
+	        android:layout_marginRight="50dip"
+	        android:background="@drawable/yellowbg"/>
+ 	</LinearLayout>
+ </LinearLayout>
+  	
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:orientation="horizontal" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+	  		
+	  	<com.xgadget.uimodule.CustomBitmapButton 
+    			android:id="@+id/OnlineSetupOKButton"
+				android:layout_gravity="center"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentRight="true"
+				android:layout_height="80dp"
+				android:layout_width="80dp"/>
+		<com.xgadget.uimodule.CustomBitmapButton 
+				android:id="@+id/OnlineSetupCloseButton"
+				android:layout_gravity="center"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true"
+				android:layout_height="80dp"
+				android:layout_width="80dp"/>
+	
+	</LinearLayout>		
+    	
+</RelativeLayout>

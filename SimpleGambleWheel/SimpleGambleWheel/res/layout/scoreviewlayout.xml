@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/ScoreViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@layout/green_bg">
+
+    <com.xgadget.uimodule.CustomBitmapButton
+	    android:id="@+id/ScoreViewCloseButton"
+		android:layout_height="80dp"
+		android:layout_width="80dp"
+		android:layout_gravity="right"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"/>
+
+
+<ScrollView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	
+<LinearLayout 
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_chipheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem1icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="@string/Me"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_chipinfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/me_chipheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/Chips"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/me_chipbalancetext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_bigwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem1icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="@string/Me"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_bigwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/me_bigwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/me_bigwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/BiggestWin"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/me_bigwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_lastwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem1icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="@string/Me"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/me_lastwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/me_lastwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/me_lastwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/LatestPlay"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/me_lastwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>    	
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_chipheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa1"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_chipinfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa1_chipheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/Chips"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa1_chipbalancetext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_bigwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa1"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_bigwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa1_bigwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa1_bigwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/BiggestWin"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa1_bigwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_lastwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa1"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa1_lastwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa1_lastwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa1_lastwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/LatestPlay"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa1_lastwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_chipheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa2"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_chipinfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa2_chipheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/Chips"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa2_chipbalancetext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_bigwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa2"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_bigwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa2_bigwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa2_bigwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/BiggestWin"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa2_bigwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_lastwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa2"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa2_lastwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa2_lastwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa2_lastwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/LatestPlay"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa2_lastwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_chipheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa3"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_chipinfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa3_chipheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/Chips"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa3_chipbalancetext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_bigwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa3"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_bigwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa3_bigwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa3_bigwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/BiggestWin"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa3_bigwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_lastwinheadergroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="44dp"
+            	android:layout_alignParentLeft="true"
+            	android:layout_alignParentTop="true"
+            	android:background="@drawable/redeem2icon"
+            	android:focusable="false" />
+
+        	<TextView
+        		android:text="RoPa3"
+				android:textColor="#818181"
+        		android:textSize="10sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+				android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+		</LinearLayout>
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/ropa3_lastwininfogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ropa3_lastwinheadergroup"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	
+        	<TextView
+        		android:id="@+id/ropa3_lastwininfoheaderlabel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+        		android:text="@string/LatestPlay"
+        		android:textSize="20sp"		
+				android:textColor="#000"
+            	android:layout_alignParentTop="true"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+    			android:id="@+id/ropa3_lastwinchipstext"
+        		android:text="1000"
+				android:textColor="#414141"
+        		android:textSize="14sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="left"
+            	android:layout_alignParentBottom="true"
+            	android:background="@android:color/transparent" />
+		
+		</LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

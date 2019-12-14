@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<com.xgadget.BubbleTile.CGameMainView
+    android:id="@+id/mainview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
+<com.xgadget.BubbleTile.GameView
+    android:id="@+id/gameview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
+<com.xgadget.BubbleTile.WizardView
+    android:id="@+id/wizardview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
+<?Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainview"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/android_button"/?>
+
+<RelativeLayout android:id="@+id/layout" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView android:id="@+id/text" android:text=""
+            android:visibility="visible" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerInParent="true"
+            android:gravity="center_horizontal" android:textColor="#ff000000"
+            android:textSize="15sp" />
+     <WebView android:id="@+id/fakewebview"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"/>
+ 
+    <com.mobclix.android.sdk.MobclixMMABannerXLAdView
+    android:id="@+id/banner_adview_p_0"
+    android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+    android:layout_height="50dip"
+    android:layout_width="320dip"/>
+
+    <com.mobclix.android.sdk.MobclixMMABannerXLAdView
+    android:id="@+id/banner_adview_l_0"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_height="50dip"
+    android:layout_width="320dip"/>
+ </RelativeLayout>
+ </FrameLayout>

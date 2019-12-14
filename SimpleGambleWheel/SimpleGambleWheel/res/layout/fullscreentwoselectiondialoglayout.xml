@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/FullscreenTwoSelectionsDialogLayout"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@android:color/transparent">
+
+<View
+	android:id="@+id/FullscreenAlertDialogBG"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:clickable = "true"
+    android:background="#BF111111"/>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fullscreentwoselectiontemplate"
+    android:layout_width="320dp"
+    android:layout_height="250dp"
+			android:layout_gravity="center"
+			android:gravity="center"			
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true" >
+    
+
+	<com.xgadget.uimodule.CustomDialogBackground 
+    	android:id="@+id/fullscreentwoselectionsdumpbg"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+  
+    
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    	
+    <com.xgadget.uimodule.CGreenGlossyButton
+        android:id="@+id/fstsdlgone"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+    	android:layout_centerHorizontal="true"
+ 		android:gravity="center"/>
+
+    <com.xgadget.uimodule.CGreenGlossyButton
+        android:id="@+id/fstsdlgtwo"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+		android:layout_below="@id/fstsdlgone"
+    	android:layout_centerHorizontal="true"
+ 		android:gravity="center"/>
+ 
+ 
+    </LinearLayout>
+      
+        
+     <com.xgadget.uimodule.CustomBitmapButton
+        android:id="@+id/fullscreentwoselectionclosebutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" /> 
+   
+
+</RelativeLayout>
+    
+</RelativeLayout>

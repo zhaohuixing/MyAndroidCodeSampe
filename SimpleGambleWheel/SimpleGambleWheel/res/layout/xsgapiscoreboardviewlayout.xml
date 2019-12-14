@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/XSGAPIScoreBoardViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@layout/green_bg">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <com.xgadget.uimodule.CustomBitmapButton 
+                android:id="@+id/XSGAPIScoreBoardViewCloseButton"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_height="80dp"
+                android:layout_width="80dp"/>
+    
+</LinearLayout>
+
+	<LinearLayout android:orientation="vertical" 
+	    android:background="@android:color/transparent" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+		<ListView 
+		    android:id="@+id/xsgapicoreboardlistview" 
+		    android:layout_width="fill_parent" 
+		    android:paddingTop="10dip" 
+		    android:paddingBottom="0dip" 
+		    android:cacheColorHint="#00000000" 
+		    android:fadingEdge="none" 
+		    android:fastScrollEnabled="false" 
+		    android:clipToPadding="false" 
+		    android:layout_height="wrap_content" 
+		    android:listSelector="@layout/xsgapiscoreboard_item"
+		    android:divider="@drawable/list_divider" />
+	</LinearLayout>
+    
+    
+</LinearLayout>

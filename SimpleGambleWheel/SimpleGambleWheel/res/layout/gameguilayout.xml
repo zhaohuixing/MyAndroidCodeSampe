@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/GameMainPlayingViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+ 
+    <com.xgadget.SimpleGambleWheel.MyAbsoluteLayout
+    android:id="@+id/GameEntireLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<com.xgadget.SimpleGambleWheel.GameView 
+    	android:id="@+id/GameView"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+	<com.xgadget.SimpleGambleWheel.CCompassRender 
+    	android:id="@+id/WheelView"
+    	android:layout_width="280px"
+    	android:layout_height="280px" />
+
+	<com.xgadget.SimpleGambleWheel.CCompassAnimator 
+    	android:id="@+id/WheelAnimator"
+    	android:layout_width="280px"
+    	android:layout_height="280px" />
+
+	<com.xgadget.SimpleGambleWheel.CPinRender 
+    	android:id="@+id/PointerView"
+    	android:layout_width="280px"
+    	android:layout_height="280px" />
+ 	
+ 	<com.xgadget.SimpleGambleWheel.GameTBSystemButton 
+    	android:id="@+id/SystemButton"
+    	android:layout_width="32px"
+    	android:layout_height="32px" />
+
+ 	<com.xgadget.SimpleGambleWheel.GameTBOnlineCloseButton 
+    	android:id="@+id/OnlineCloseButton"
+    	android:layout_width="32px"
+    	android:layout_height="32px" />
+
+ 	<com.xgadget.SimpleGambleWheel.GameTBOnlineOpenButton 
+    	android:id="@+id/OnlineOpenButton"
+    	android:layout_width="32px"
+    	android:layout_height="32px" />
+
+	<com.xgadget.SimpleGambleWheel.GameCashBalanceView 
+    	android:id="@+id/CashMachine"
+    	android:layout_width="120px"
+    	android:layout_height="120px" />
+
+ 	<com.xgadget.SimpleGambleWheel.GamePlayerLayout 
+    	android:id="@+id/GamePlayer0"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerAvatar 
+    		android:id="@+id/GamePlayerAvatar0"
+    		android:layout_width="36px"
+    		android:layout_height="36px" />
+    		
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerBetView 
+    		android:id="@+id/GamePlayerBetView0"
+    		android:layout_width="36px"
+    		android:layout_height="18px" />
+    </com.xgadget.SimpleGambleWheel.GamePlayerLayout>	
+
+ 	<com.xgadget.SimpleGambleWheel.GamePlayerLayout 
+    	android:id="@+id/GamePlayer1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerAvatar 
+    		android:id="@+id/GamePlayerAvatar1"
+    		android:layout_width="36px"
+    		android:layout_height="36px" />
+    		
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerBetView 
+    		android:id="@+id/GamePlayerBetView1"
+    		android:layout_width="36px"
+    		android:layout_height="18px" />
+    </com.xgadget.SimpleGambleWheel.GamePlayerLayout>	
+
+	<com.xgadget.SimpleGambleWheel.GamePlayerLayout 
+    	android:id="@+id/GamePlayer2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerAvatar 
+    		android:id="@+id/GamePlayerAvatar2"
+    		android:layout_width="36px"
+    		android:layout_height="36px" />
+
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerBetView 
+    		android:id="@+id/GamePlayerBetView2"
+    		android:layout_width="36px"
+    		android:layout_height="18px" />
+    </com.xgadget.SimpleGambleWheel.GamePlayerLayout>	
+    
+ 	<com.xgadget.SimpleGambleWheel.GamePlayerLayout 
+    	android:id="@+id/GamePlayer3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" >
+
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerAvatar 
+    		android:id="@+id/GamePlayerAvatar3"
+    		android:layout_width="36px"
+    		android:layout_height="36px" />
+    		
+ 		<com.xgadget.SimpleGambleWheel.GamePlayerBetView 
+    		android:id="@+id/GamePlayerBetView3"
+    		android:layout_width="36px"
+    		android:layout_height="18px" />
+    </com.xgadget.SimpleGambleWheel.GamePlayerLayout>	
+	
+ 	<com.xgadget.SimpleGambleWheel.ActivePlayerAnimator 
+    	android:id="@+id/ActivePlayerIndicator"
+    	android:layout_width="18px"
+    	android:layout_height="18px" />
+	
+    <com.xgadget.SimpleGambleWheel.CMessageDisplayBoard 
+        android:id="@+id/StatusBar"
+        android:layout_width="320dp"
+        android:layout_height="50dp" />
+    
+    <com.xgadget.SimpleGambleWheel.CPlayerMessageDisplayView 
+        android:id="@+id/OnlinePlayerMsgBoard"
+        android:layout_width="320dp"
+        android:layout_height="50dp" />
+	
+	<com.xgadget.SimpleGambleWheel.CPlayerSendMessageView
+        android:id="@+id/OnlineSendMsgBoard"
+        android:layout_width="320dp"
+        android:layout_height="50dp" />
+	
+	</com.xgadget.SimpleGambleWheel.MyAbsoluteLayout>
+
+    <!-- com.google.android.gms.ads.AdView 
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="ca-app-pub-3124334635306550/6091623626"
+                         ads:adSize="BANNER"
+    					android:id="@+id/banner_adview0"
+    					android:layout_alignParentBottom="true"
+    					android:layout_centerHorizontal="true"/  -->
+ 
+	<WebView android:id="@+id/fakewebview" 
+			android:visibility="invisible" 
+			android:layout_width="1dip"
+			android:layout_height="1dip"/>
+ 
+</RelativeLayout>

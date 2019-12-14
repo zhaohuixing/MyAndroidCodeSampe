@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/GameThemeTypeSelectViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@layout/green_bg">
+    
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:orientation="horizontal" 
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentLeft="true" >
+    		<com.xgadget.uimodule.CustomBitmapButton 
+    			android:id="@+id/GameThemeTypeSelectViewPrevButton"
+ 	    		android:layout_width="80dp"
+ 	    		android:layout_height="80dp"		
+ 	    		android:layout_gravity="center_horizontal"
+    			android:layout_alignParentTop="true"
+    			android:layout_alignParentLeft="true"/>
+    
+ 			<com.xgadget.uimodule.CustomBitmapButton 
+    			android:id="@+id/GameThemeTypeSelectViewNextButton"
+  	    		android:layout_width="80dp"
+ 	    		android:layout_height="80dp"		
+ 	    		android:layout_gravity="center_horizontal"
+    			android:layout_alignParentTop="true"
+    			android:layout_alignParentRight="true"/>
+   
+    </LinearLayout>
+    
+    <com.xgadget.uimodule.CustomBitmapButton
+	    android:id="@+id/GameThemeTypeSelectCloseButton"
+		android:layout_height="80dp"
+		android:layout_width="80dp"
+		android:layout_gravity="center_horizontal"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"/>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:layout_gravity="center"
+			android:gravity="center"			
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" 
+			android:textSize="24sp"
+			android:textStyle="bold"
+			android:textColor="@android:color/black"
+			android:background="@android:color/transparent"
+			android:text="@string/Theme"/>
+			
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:id="@+id/GameThemeTypeSelectPickerControlLayout"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" >
+		
+	  
+	  		<com.xgadget.SimpleGambleWheel.GameThemeTypeConfigurationPicker 
+    			android:id="@+id/GameThemeTypeSelectionPicker"
+				android:layout_height="180dp"
+				android:layout_width="260dp"/>
+		</LinearLayout>		
+	</LinearLayout>		
+	
+</RelativeLayout>

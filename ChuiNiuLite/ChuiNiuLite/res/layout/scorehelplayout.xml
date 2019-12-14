@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/ScoreHelpGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@layout/green_bg">
+
+    <com.xgadget.uimodule.CustomBitmapButton
+	    android:id="@+id/ScoreHelpCloseButton"
+		android:layout_height="60dp"
+		android:layout_width="60dp"
+		android:layout_gravity="right"
+    	android:layout_alignParentTop="true"
+    	android:layout_alignParentRight="true"/>
+
+
+<ScrollView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	
+<LinearLayout 
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        
+   	<TextView
+      	android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/requirescoretitle"
+        android:textSize="34sp"		
+		android:textColor="#000"
+        android:background="@android:color/transparent" />
+        
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="0"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="1"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="3"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="6"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="16"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="19"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="23"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="26"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="32"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="42"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="48"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="58"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+	</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+   	<TextView
+      	android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/earnscoretitle"
+        android:textSize="34sp"		
+		android:textColor="#000"
+        android:background="@android:color/transparent" />
+        
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="1"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="2"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="3"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="2"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="3"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="4"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="3"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="6"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="10"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="6"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="10"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="20"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+	</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        
+   	<TextView
+      	android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lostscoretitle"
+        android:textSize="34sp"		
+		android:textColor="#000"
+        android:background="@android:color/transparent" />
+        
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="80"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="40"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level1skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="20"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="9"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="8"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level2skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="7"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="6"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="5"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level3skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="4"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill1"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="3"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill2"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="2"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/singleitem_bg" >
+
+    	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	<ImageView
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_alignParentLeft="true"
+				android:layout_gravity="center"
+            	android:background="@drawable/ic_launcher"
+            	android:focusable="false" />
+
+    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_marginLeft="10dp"
+        	android:orientation="vertical" >
+        	<TextView
+            	android:layout_alignParentTop="true"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+        		android:text="@string/level4skill3"
+        		android:textSize="24sp"		
+				android:textColor="#000"
+            	android:background="@android:color/transparent" />
+        	
+        	<TextView
+        		android:text="1"
+				android:textColor="#414141"
+        		android:textSize="18sp"		
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center"
+            	android:background="@android:color/transparent" />
+            </LinearLayout>	
+			</LinearLayout>
+    	</RelativeLayout>
+
+	</LinearLayout>
+
+
+  </LinearLayout>
+</ScrollView>
+</LinearLayout>

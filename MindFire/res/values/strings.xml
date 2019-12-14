@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mind Fire</string>
+	<string name="text_result_title">Your correct answers</string>
+	<string name="menu_level">Level</string>
+	<string name="menu_score">Score</string>
+	<string name="menu_misc">Misc</string>
+	<string name="menu_new">New</string>
+	<string name="menu_exit">Exit</string>
+	<string name="menu_help">Help</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="closepanel">Close</string>
+    <string name="pointlabel">Point:</string>
+    <string name="latestlabel">Latest Score:</string>
+    <string name="latestlabel2">Latest Score (%):</string> 
+    <string name="highlabel">Highest Score:</string> 
+    <string name="avelabel">Average Score:</string>
+    <string name="playlabel">Plays:</string>
+    <string name="noscore">No score</string>
+	<string name="text_help">Arrow key: move screen cursor forward or backward around cards and buttons.\n Center/OK key: Select the card or click the buttons, make calculation. \n Touch screen users: can directly drag and drop the cards, or click buttons\n by touching the screen with finger or stylus.\n Copyright@2010 e-gadget \n Contact: e-gadget@live.com</string>
+    <string name="invalid_point">Please input a valid number between 0 and 28561</string>
+    <string name="saveconfirmation">Do you want to save the score of this play?</string>
+</resources>

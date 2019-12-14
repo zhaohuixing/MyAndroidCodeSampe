@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/ConfigureGameModeViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@layout/green_bg">
+ 
+ 	<com.xgadget.uimodule.CustomBitmapButton
+ 	    android:id="@+id/GameModeViewNextButton"
+ 	    android:layout_width="80dp"
+ 	    android:layout_height="80dp"		
+ 	    android:layout_gravity="center_horizontal"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentLeft="true"/>
+
+    <com.xgadget.uimodule.CustomBitmapButton
+	    android:id="@+id/GameModeViewCloseButton"
+		android:layout_height="80dp"
+		android:layout_width="80dp"
+		android:layout_gravity="center_horizontal"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"/>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:id="@+id/GameConfigureGameModePickerControlLayout"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" >
+		
+	  
+	  		<com.xgadget.SimpleGambleWheel.GameConfigureGameModePicker 
+    			android:id="@+id/GameModePicker"
+				android:layout_height="120dp"
+				android:layout_width="200dp"/>
+		</LinearLayout>		
+	
+</RelativeLayout>

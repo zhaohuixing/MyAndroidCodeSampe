@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/xgadget_bubbletjava/!svn/ver/37/src/com/xgadget/BubbleTile
+END
+WizardView.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/xgadget_bubbletjava/!svn/ver/31/src/com/xgadget/BubbleTile/WizardView.java
+END
+enBubbleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/5/src/com/xgadget/BubbleTile/enBubbleType.java
+END
+TriangleGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xgadget_bubbletjava/!svn/ver/36/src/com/xgadget/BubbleTile/TriangleGrid.java
+END
+enBubbleMotion.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xgadget_bubbletjava/!svn/ver/5/src/com/xgadget/BubbleTile/enBubbleMotion.java
+END
+enGridType.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xgadget_bubbletjava/!svn/ver/5/src/com/xgadget/BubbleTile/enGridType.java
+END
+GUILayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xgadget_bubbletjava/!svn/ver/29/src/com/xgadget/BubbleTile/GUILayout.java
+END
+CGameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xgadget_bubbletjava/!svn/ver/36/src/com/xgadget/BubbleTile/CGameActivity.java
+END
+GameConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xgadget_bubbletjava/!svn/ver/31/src/com/xgadget/BubbleTile/GameConfiguration.java
+END
+CUndoCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xgadget_bubbletjava/!svn/ver/11/src/com/xgadget/BubbleTile/CUndoCommand.java
+END
+SquareGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/xgadget_bubbletjava/!svn/ver/34/src/com/xgadget/BubbleTile/SquareGrid.java
+END
+ScoreRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/27/src/com/xgadget/BubbleTile/ScoreRecord.java
+END
+enMotionDirection.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xgadget_bubbletjava/!svn/ver/5/src/com/xgadget/BubbleTile/enMotionDirection.java
+END
+CGameLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/34/src/com/xgadget/BubbleTile/CGameLayout.java
+END
+ShuffleSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xgadget_bubbletjava/!svn/ver/11/src/com/xgadget/BubbleTile/ShuffleSuite.java
+END
+GameConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xgadget_bubbletjava/!svn/ver/11/src/com/xgadget/BubbleTile/GameConstants.java
+END
+enGridLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/5/src/com/xgadget/BubbleTile/enGridLayout.java
+END
+StringFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xgadget_bubbletjava/!svn/ver/27/src/com/xgadget/BubbleTile/StringFactory.java
+END
+CUILayoutCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xgadget_bubbletjava/!svn/ver/29/src/com/xgadget/BubbleTile/CUILayoutCursor.java
+END
+GameView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xgadget_bubbletjava/!svn/ver/37/src/com/xgadget/BubbleTile/GameView.java
+END
+PlayBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xgadget_bubbletjava/!svn/ver/37/src/com/xgadget/BubbleTile/PlayBoard.java
+END
+IndexObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/11/src/com/xgadget/BubbleTile/IndexObject.java
+END
+PlayBoardController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/xgadget_bubbletjava/!svn/ver/27/src/com/xgadget/BubbleTile/PlayBoardController.java
+END
+IPuzzleGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/12/src/com/xgadget/BubbleTile/IPuzzleGrid.java
+END
+BubbleObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/xgadget_bubbletjava/!svn/ver/36/src/com/xgadget/BubbleTile/BubbleObject.java
+END
+GridCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/xgadget_bubbletjava/!svn/ver/10/src/com/xgadget/BubbleTile/GridCell.java
+END
+CPuzzleGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/36/src/com/xgadget/BubbleTile/CPuzzleGrid.java
+END
+HexagonGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/34/src/com/xgadget/BubbleTile/HexagonGrid.java
+END
+EasyShuffleSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/xgadget_bubbletjava/!svn/ver/11/src/com/xgadget/BubbleTile/EasyShuffleSuite.java
+END
+GameScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/xgadget_bubbletjava/!svn/ver/34/src/com/xgadget/BubbleTile/GameScore.java
+END
+CResourceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/xgadget_bubbletjava/!svn/ver/29/src/com/xgadget/BubbleTile/CResourceHelper.java
+END
+CBubblePainter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/xgadget_bubbletjava/!svn/ver/29/src/com/xgadget/BubbleTile/CBubblePainter.java
+END
+DiamondGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/xgadget_bubbletjava/!svn/ver/34/src/com/xgadget/BubbleTile/DiamondGrid.java
+END
+Rotate3dAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/xgadget_bubbletjava/!svn/ver/31/src/com/xgadget/BubbleTile/Rotate3dAnimation.java
+END
+ApplicationConfigure.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/xgadget_bubbletjava/!svn/ver/15/src/com/xgadget/BubbleTile/ApplicationConfigure.java
+END
+CGameMainView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/xgadget_bubbletjava/!svn/ver/37/src/com/xgadget/BubbleTile/CGameMainView.java
+END

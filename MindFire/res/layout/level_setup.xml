@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RadioGroup
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<RadioButton android:id="@+id/easy_24"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Easy(default): 24 points"/>
+	<RadioButton android:id="@+id/medium_21"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Medium: 21 points"/>
+	<RadioButton android:id="@+id/difficulty_18"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Medium: 18 points"/>
+	<RadioButton android:id="@+id/difficulty_27"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Difficulty: 27 points"/>
+	<RadioButton android:id="@+id/difficulty_misc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Difficulty: others (0 - 28561 points)"/>
+</RadioGroup>
+<EditText
+    android:id="@+id/editpoints"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+<Button android:id="@+id/confirm" 
+	android:text="@string/confirm"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>

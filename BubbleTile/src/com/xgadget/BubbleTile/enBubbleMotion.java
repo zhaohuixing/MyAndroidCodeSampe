@@ -1,0 +1,9 @@
+package com.xgadget.BubbleTile;
+
+public enum enBubbleMotion {
+	BUBBLE_MOTION_NONE,
+	BUBBLE_MOTION_HORIZONTAL,       
+	BUBBLE_MOTION_VERTICAL,
+	BUBBLE_MOTION_60DIAGONAL,
+	BUBBLE_MOTION_120DIAGONAL 
+}

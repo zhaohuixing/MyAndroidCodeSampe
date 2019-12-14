@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CGameActivity!</string>
+    <string name="app_name">Bubble Tile</string>
+    <string name="OS_LANGSETTING">0</string>
+    <string name="Least_Step">Least Step</string>
+    <string name="Total_Archivement">Total Archivement</string>
+    <string name="AskPurchase">AskPurchase</string>
+    <string name="Purchase">Purchase</string>
+    <string name="No_Thanks">NoThanks</string>
+    <string name="CannotPayment">CannotPayment</string>
+    <string name="BuyConfirm">BuyConfirm</string>
+    <string name="TransactionFailure">TransactionFailure</string>
+    <string name="Buy_It">Buy It</string>
+    <string name="PaidFeatureAsk">This feature is available in paid version. Do you want to purchase paid version?</string>
+    <string name="Bubble_Tile">Bubble Tile</string>
+    <string name="Share_On_Facebook">Share On Facebook</string>
+    <string name="Playing_game">Playing game &lt;Bubble Tile&gt;</string>
+    <string name="NetworkWarn">NetworkWarn</string>
+    <string name="Social_network">Social network</string>
+    <string name="Triangle">Triangle</string>
+    <string name="Square">Square</string>
+    <string name="Diamond">Diamond</string>
+    <string name="Hexagon">Hexagon</string>
+    <string name="Parallel">Parallel</string>
+    <string name="Zigzag">Zigzag</string>
+    <string name="Spiral">Spiral</string>
+    <string name="Full_Game_Feature">Full Game Feature</string>
+    <string name="Square_Puzzle">Square Puzzle</string>
+    <string name="Diamond_Puzzle">Diamond Puzzle</string>
+    <string name="Hexagon_Puzzle">Hexagon Puzzle</string>
+    <string name="Full_Price">Full Price</string>
+    <string name="Easy">Easy</string>
+    <string name="Price">Price</string>
+    <string name="Difficult">Difficult</string>
+    <string name="Friends">Friends</string>
+    <string name="Other_players">Other players</string>
+    <string name="Overall">Overall</string>
+    <string name="Menu_Game">Game</string>
+    <string name="MenuItem_StartGame">Game</string>
+    <string name="MenuItem_StartWizard">Wizard</string>
+
+</resources>

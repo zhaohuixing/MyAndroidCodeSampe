@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/PlayerOfflineTransferChipViewGroup"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@layout/green_bg">
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:orientation="vertical" >
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" 
+        	android:orientation="horizontal" >
+     
+    		<com.xgadget.SimpleGambleWheel.PlayerPledgeHeadView
+	    	android:id="@+id/PlayerOfflineTransferChipHeadView"
+			android:layout_height="80dp"
+			android:layout_width="100dp"
+			android:layout_gravity="center_horizontal"
+    		android:layout_alignParentTop="true"
+			android:layout_centerHorizontal ="true" />
+			
+		<TextView
+	    	android:id="@+id/PlayerOfflineTransferChipNameTag"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:layout_gravity="center"
+			android:gravity="center"			
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" 
+			android:textSize="24sp"
+			android:textStyle="bold"
+			android:textColor="@android:color/black"
+			android:background="@android:color/transparent"
+			android:text="Me"/>
+			
+		</LinearLayout>		
+     
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:id="@+id/PlayerOfflineTransferChipLayout"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true" >
+		
+	  
+	  		<com.xgadget.SimpleGambleWheel.PlayerOfflineTransferChipsReceiverPicker 
+    			android:id="@+id/PlayerOfflineTransferReceiverPicker"
+				android:layout_height="210dp"
+				android:layout_width="100dp"/>
+			<com.xgadget.SimpleGambleWheel.PlayerOfflineTransferChipsAmountPicker 
+				android:id="@+id/PlayerOfflineTransferAmountPicker"
+				android:layout_height="210dp"
+				android:layout_width="100dp"/>
+		</LinearLayout>		
+	</LinearLayout>		
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        android:orientation="horizontal" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+	  		
+	  	<com.xgadget.uimodule.CustomBitmapButton 
+    			android:id="@+id/PlayerOfflineTransferOKButton"
+				android:layout_gravity="center"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true"
+				android:layout_height="80dp"
+				android:layout_width="80dp"/>
+		<com.xgadget.uimodule.CustomBitmapButton 
+				android:id="@+id/PlayerOfflineTransferCancelButton"
+				android:layout_gravity="center"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentRight="true"
+				android:layout_height="80dp"
+				android:layout_width="80dp"/>
+	
+	</LinearLayout>		
+	
+</RelativeLayout>

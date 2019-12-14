@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/GameScreenRoot"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"> 
+<ViewFlipper
+	android:id="@+id/ScreenController"
+	style="@style/fullscreen" >
+
+<include layout="@layout/gameguilayout"/>
+<include layout="@layout/scorehelplayout"/>
+<include layout="@layout/gamemainmenulayout"/>
+<include layout="@layout/configuresetup"/>
+<include layout="@layout/scoreviewlayout"/>
+<include layout="@layout/fullscreenalertdialoglayout"/>
+<include layout="@layout/fullscreencustomdialoglayout"/>
+<include layout="@layout/fullscreentwoselectiondialoglayout"/>
+<include layout="@layout/fgpreviewlayout"/>
+</ViewFlipper>
+
+</LinearLayout>
